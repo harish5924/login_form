@@ -1,0 +1,118 @@
+.App {
+    background: radial-gradient(103.88% 58.43% at 56.74% 50%, #0085FF 0%, #003465 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.register_form {
+    display: flex;
+    border-radius: 40px;
+    background: rgba(88, 130, 193, 0.28);
+    backdrop-filter: blur(12.5px);
+    min-height:50vh;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.register_page span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 14.5px;
+}
+.register_page button {
+    color: #fff;
+    font-size: 14px;
+    line-height: 14.5px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.form_page {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.form_page h2 {
+    margin-bottom: 80px;
+    color: #fff;
+}
+.form_page .form_layout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.form_page .form_layout input {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    padding: 15px 25px;
+    outline: none;
+}
+
+.form_layout button {
+    width: 450px;
+    height: 55px;
+    background: #F0F2F5;
+    color: #5A5A5A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #D9D9D9;
+}
+
+
+
+@media screen and (max-width:420px) {
+    .register_form {
+        min-height: 30vh;
+    }
+    .logo img {
+        width: 20px;
+        height: 20px;
+    }
+    .register_page span {
+        font-size: 8px;
+    }
+    .form_page .form_layout input {
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+    .form_page button {
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
